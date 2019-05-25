@@ -22,9 +22,9 @@ const validator = require('validator');
 
 module.exports = function parseQueryString() {
   return function (req, res, next) {
-    console.log(req.query)
+    //console.log(req.query)
     for(key of Object.keys(req.query)){
-      console.log(key)
+      //console.log(key)
       if(validator.isFloat(req.query[key])){
         req.query[key] = parseFloat(req.query[key])
       }
