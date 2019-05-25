@@ -1,0 +1,39 @@
+{
+  "name": "@softroles/parse-query-string",
+  "version": "1.0.0",
+  "description": "Query string parser middleware",
+  "keywords": [
+    "express",
+    "request",
+    "query"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/softroles/parse-query-string.git"
+  },
+  "bugs": {
+    "url": "http://github.com/softroles/parse-query-string/issues"
+  },
+  "author": "Hüseyin Yiğit <yigit.hsyn@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./",
+  "dependencies": {
+    "validator": "^11.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 10.15.0"
+  },
+  "homepage": "https://github.com/softroles/parse-query-string#readme",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
+}
