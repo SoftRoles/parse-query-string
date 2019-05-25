@@ -25,7 +25,7 @@ module.exports = function parseQueryString() {
     //console.log(req.query)
     for(key of Object.keys(req.query)){
       //console.log(key)
-      if(validator.isFloat(req.query[key]) && validator.isInt(req.query[key])){
+      if(validator.isFloat(req.query[key]) || validator.isInt(req.query[key])){
         req.query[key] = parseFloat(req.query[key])
       }
       /*else if(){
